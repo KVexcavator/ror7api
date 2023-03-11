@@ -1,0 +1,11 @@
+$ docker build -t ror7api .
+$ docker run -i -t --rm -v ${PWD}:/usr/src/app ror7api bash
+# cd /usr/src/app
+# gem install rails -v 7.0.4
+# rails new . --api --no-sprockets -d postgresql --skip-bundle --skip-test
+# exit
+$ docker run -p 3000:3000 ror7api
+
+sudo chown excavator:excavator -R ror7_api/
+
+$ docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ror7api bundle install
