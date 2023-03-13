@@ -9,3 +9,7 @@ $ docker run -p 3000:3000 ror7api
 sudo chown excavator:excavator -R ror7_api/
 
 $ docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ror7api bundle install
+
+===============================
+$ docker compose up --build
+$ docker compose exec ror7 bin/rails g model User username
