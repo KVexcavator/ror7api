@@ -9,7 +9,7 @@ class V1::SessionsController < ApplicationController
     end
   end
 
-  def destroy
+  # def destroy
 
-  end
+  # end
 end
