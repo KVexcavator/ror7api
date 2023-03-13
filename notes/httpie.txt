@@ -1,0 +1,4 @@
+https://httpie.io/docs/cli/usage
+https://github.com/cyu/rack-cors
+
+http localhost:3000/v1/contacts
