@@ -1,4 +1,11 @@
 https://httpie.io/docs/cli/usage
 https://github.com/cyu/rack-cors
+https://github.com/heartcombo/devise
+
+user = User.create(email: "vasia@mail.local", password: "12345678")
+user.authentication_token
+=> "sBSnuNck4zHhWtWxt4Dx"
 
 http localhost:3000/v1/contacts
+
+http POST localhost:3000/v1/sessions  email=vasia@mail.local password=12345678
