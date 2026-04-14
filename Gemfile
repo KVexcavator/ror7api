@@ -44,8 +44,11 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "solargraph"
 end
 
 gem "devise", "~> 4.9"
 
 gem "simple_token_authentication", "~> 1.18"
+
+gem "rolify"
